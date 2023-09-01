@@ -10,3 +10,8 @@ def read_root():
 @app.get("/get_phone_number_results")
 def results():
     return {"message": "Hello, FastAPI!"}
+
+
+@app.get("/get_country_code")
+def country_code():
+    return {"message": "Hello, FastAPI!"}
