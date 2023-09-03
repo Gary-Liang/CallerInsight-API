@@ -15,3 +15,7 @@ def results():
 @app.get("/get_country_code")
 def country_code():
     return {"message": "Hello, FastAPI!"}
+
+@app.get("/authenticate")
+def authenticate():
+    return {"": ""}
