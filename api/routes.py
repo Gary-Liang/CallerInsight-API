@@ -19,3 +19,7 @@ def country_code():
 @app.get("/authenticate")
 def authenticate():
     return {"": ""}
+
+@app.get("/redirect")
+def redirect():
+    return {"":""}
