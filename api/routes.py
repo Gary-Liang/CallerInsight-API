@@ -2,6 +2,12 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
+# placeholder for database query for phone number inserts 
+def recordedData():
+    return None
+    
+
 @app.get("/")
 def read_root():
     return {"message": "Hello, FastAPI!"}
