@@ -29,3 +29,9 @@ def authenticate():
 @app.get("/redirect")
 def redirect():
     return {"":""}
+
+
+#404 error/unauthorized 
+@app.get("error")
+def error():
+    return {"":""}
