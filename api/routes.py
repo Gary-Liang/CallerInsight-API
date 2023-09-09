@@ -34,4 +34,7 @@ def redirect():
 #404 error/unauthorized 
 @app.get("error")
 def error():
-    return {"":""}
+    if 'q?' == '401':
+        return {"401 Error":""}
+    else: 
+        return {"404 Error": ""}
